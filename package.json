@@ -1,0 +1,21 @@
+{
+  "name": "pi-adaptive-compaction",
+  "version": "0.1.0",
+  "description": "Scales pi's context compaction to the active model: compaction trigger, retained tail, and summary budget all adapt to each model's context window.",
+  "keywords": [
+    "pi-package"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ripley-xl/pi-adaptive-compaction.git"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/adaptive-compaction.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
