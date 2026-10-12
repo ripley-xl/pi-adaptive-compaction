@@ -1,6 +1,6 @@
 {
   "name": "pi-adaptive-compaction",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scales pi's context compaction to the active model: compaction trigger, retained tail, and summary budget all adapt to each model's context window.",
   "keywords": [
     "pi-package"
