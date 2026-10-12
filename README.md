@@ -5,13 +5,13 @@ Pi extension that scales context compaction to the active model's context window
 ## Install
 
 ```bash
-pi install git:github.com/ripley-xl/pi-adaptive-compaction
+pi install npm:pi-adaptive-compaction
 ```
 
-Once published to npm, equivalently:
+Or from git:
 
 ```bash
-pi install npm:pi-adaptive-compaction
+pi install git:github.com/ripley-xl/pi-adaptive-compaction
 ```
 
 ## Behavior
